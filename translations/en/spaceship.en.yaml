@@ -1,0 +1,18 @@
+spaceship: spaceship
+spaceships: Spaceships
+name: Name
+new: New spaceship
+update: Update spaceship
+delete: Delete spaceship
+details: View Details
+description: Description
+author: Author
+likes: Popularity
+created_at: Created At
+category: Category
+civilian: Civilian
+military: Military
+latest_ships: Latest Ships
+no_ships: No Ships added
+image: Image
+add_spaceship: Add Spaceship

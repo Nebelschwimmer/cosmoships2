@@ -1,0 +1,11 @@
+user: Пользователь
+users: Пользователи
+username: Имя
+email: Email
+password: Пароль
+role: Роль
+gender: Пол
+about: О себе
+date_of_birth: Дата рождения
+likes: Популярность
+created_at: Дата регистрации

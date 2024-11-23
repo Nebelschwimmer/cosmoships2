@@ -1,0 +1,18 @@
+spaceship: космический корабль
+spaceships: Космические корабли
+name: Название
+new: Новый корабль
+update: Изменить корабль
+delete: Удалить корабль
+details: Подробности
+description: Описание
+author: Автор
+likes: Популярность
+created_at: Дата публикации
+category: Категория
+civilian: Гражданский
+military: Военный
+latest_ships: Последние корабли
+no_ships: Нет добавленных кораблей
+image: Изображение
+add_spaceship: Добавить корабль

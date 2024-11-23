@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+    <title>{% block title %}CosmoShips{% endblock %}</title>
+    {% block stylesheets %}
+      <link href="{{ asset('vue-app/assets/index.css') }}" rel="stylesheet" />
+    {% endblock %}
+    
+    {% block head_javascript %}
+    {% endblock head_javascript %}
+  </head>
+
+  <body>
+    {% block body %}{% endblock %} 
+    
+    {% block javascripts %}
+      <script type="module" src="{{ asset('vue-app/assets/index.js') }}"></script>
+    {% endblock %}
+  </body>
+</html>

@@ -1,0 +1,13 @@
+login_title: Login
+login_button: Login
+admin_dashboard: Admin Dashboard
+password: Password
+password_reset: Password Reset
+logout: Logout
+back_to_site: Back to the website
+users: Users
+profile: Profile
+manage: Manage
+seed_data: Seed Data
+data_seeded: Data seeded successfully
+data_not_seeded: Error seeding data

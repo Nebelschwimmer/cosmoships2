@@ -1,0 +1,14 @@
+user: User
+users: Users
+username: User name
+email: Email
+password: Password
+role: Role
+gender: Gender
+male: Male
+female: Female
+about: About
+date_of_birth: Date of birth
+likes: Popularity
+created_at: Date of Registation
+

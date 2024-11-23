@@ -1,0 +1,84 @@
+:root{
+	--color1: rgba(22, 72, 179, 0.8);
+	--color1-bg: rgba(16, 56, 124, 0.28);
+	--color2: rgb(0, 166, 255);
+	--color-deep: rgb(38, 227, 240);
+	--color-cyan: rgba(4, 206, 220, 0.612);
+	--color2-bg: rgba(13, 103, 188, 0.4);
+	--color-warning: #bd9b61;
+	--purple: rgba(179, 81, 168, 0.9);
+}
+
+
+body{
+
+  background: linear-gradient(45deg, var(--color1), var(--color2));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.table, tr, th, td{
+  border-collapse: collapse;
+  border: 1px solid var(--color1);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  filter: drop-shadow(0 0.1rem 0.2rem var(--color1));
+  margin-top: 2rem;
+  transition: all 0.2s ease;
+}
+tr:hover{
+  background: var( --color1-bg);
+}
+.actions_cell{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  gap:0.5rem;
+}
+
+a{
+  text-decoration: none;
+  color: var(--color2);
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid var(--color2);
+  margin: 5px;
+  transition: all 0.5s ease;
+  background: rgba(var(--color1), 0.6);
+  min-width: 50px;
+
+}
+a:hover{
+  background: var(--color2-bg);
+  color: white;
+}
+h1{
+
+  text-align: center;
+  color: var(--color2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, var(--color1), var(--color2));
+  font-size: 44px;
+  filter: brightness(1.2);
+  text-shadow: 1px 2px 10px var(--color1);
+}
+input{
+ background: transparent;
+ border: 1px solid var(--color2);
+ color: white;
+ padding: 5px;
+ border-radius: 5px;
+ margin: 5px;
+ font-size: 18px;
+}
+

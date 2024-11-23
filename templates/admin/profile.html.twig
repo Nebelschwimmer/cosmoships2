@@ -1,0 +1,26 @@
+{% extends '@EasyAdmin/layout.html.twig' %}
+  {% block main %}
+    <main>
+      <span class="text"> 
+        <h4> <i class="fa-solid fa-user me-2"></i>{{ 'profile' | trans(domain: 'admin') }}</h4>
+      </span>
+      <div class="row ">
+        <div class="col">
+          <div class="card w-50">
+            <div class="card-header">
+              <h5 class="card-title">{{ user.username }}</h5>
+              <img src="{{ user.avatar }}" class="card-img-top object-fit-cover" alt="avatar" height="200" >
+            </div>
+            <div class="card-body">
+            
+              <p class="card-text">{{ 'email' | trans(domain: 'user') }}: {{ user.email }}</p>
+              <p class="card-text">{{ 'about' | trans(domain: 'user') }}: {{ user.about }}</p>
+              <p class="card-text">{{ 'date_of_birth' | trans(domain: 'user') }}: {{ user.dateOfBirth|date('Y-m-d') }}</p>
+              <p class="card-text">{{ 'gender' | trans(domain: 'user') }}: {{ user.gender|trans }}</p>
+              <p class="card-text">{{ 'created_at' | trans(domain: 'user') }}: {{ user.createdAt|date('Y-m-d H:i:s') }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  {% endblock main %}

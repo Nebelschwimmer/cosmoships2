@@ -1,0 +1,13 @@
+login_title: Вход
+login_button: Войти
+admin_dashboard: Панель администратора
+password: Пароль
+password_reset: Сброс пароля
+logout: Выйти
+back_to_site: Вернуться на сайт
+users: Пользователи
+profile: Личный кабинет
+manage: Управление
+seed_data: Сгенерировать данные
+data_seeded: Данные успешно сгенерированы
+data_not_seeded: Ошибка генерации данных
